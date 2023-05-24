@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----------header----------- */
+
+header {
+
+  background-color: rgba(201, 3, 3, 0.616);
+  padding: 20px;
+  font-size: 32px;
+  text-align: center;
+
+
+}
+
+.title-page {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-search {
+  width: 150px;
+  height: 35px;
+  justify-content: right;
+}
+
+
+/* ----------botones navegacion----------- */
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: oblique;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-color:hover {
+  background-color: #f8f4e3;
+}
+
+/* ----portada----- */
+
+.sub-titulo {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 1.5rem;
+}
+
+.portada {
+  padding: 5px;
+  background-color: rgba(3, 125, 247, 0.247);
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.formacion {
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgba(209, 211, 212, 0.637);
+}
+
+
+.fundacion {
+  background-color: rgba(209, 211, 212, 0.637);
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+/* ----Foto nuestra historia----- */
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.elemento {
+  flex: 1 0 auto;
+  margin: 0 10px;
+  height: 200px;
+  width: 200px;
+
+
+}
+
+.reseña-historica {
+  background-color: rgba(209, 211, 212, 0.637);
+  font-style: oblique;
+  font-size: medium;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 15px;
+}
+
+
+
+/* ----galeria----- */
+
+.fotos-unidades {
+  background-color: rgba(209, 211, 212, 0.637);
+
+
+}
+
+.unidades {
+  width: 250px;
+  height: 200px;
+}
+
+
+
+
+/* ----rifa----- */
+
+.rifa {
+  background-color: rgba(209, 211, 212, 0.637);
+}
+
+.boleto-rifa {
+  width: 100%;
+  padding: 20px;
+}
+
+.img-rifa {
+  width: 100%
+}
+
+.texto-rifa {
+  text-align: center;
+  font-style: oblique;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.descripcion-rifa {
+
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.formulario-rifa {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.titulo-vendedor {
+  text-align: center;
+  padding: 50px;
+  font-size: 60px;
+  font-style: oblique;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.datos-rifa {
+  font-style: oblique;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+
+/* ----contacto----- */
+
+.contacto {
+  background-color: rgba(209, 211, 212, 0.637);
+}
+
+.titulo-contacto {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+.parrafo-contacto {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.contenedor-contacto {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.caja {
+  background-color: rgba(209, 211, 212, 0.637);
+  text-align: center;
+  line-height: 100px;
+}
+
+.c1 {
+  grid-column: 1/2;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.c2 {
+  grid-column: 2/3;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.c3 {
+  grid-column: 3/4;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.c4 {
+  grid-column: 1/4;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.c5 {
+  grid-column: 1/4;
+}
+
+.btn-enviar {
+  background-color: white;
+  height: 30px;
+  width: 100px;
+}
+
+.btn-enviar:hover {
+  background-color: #a71e34;
+}
+
+
+
+
+
+
+/* ----footer----- */
+
+.final-pagina {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.n1 {
+  grid-column: 1/2;
+  color: white;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+.n2 {
+  grid-column: 1/2;
+}
+
+.n3 {
+  grid-column: 1/2;
+  color: white;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+
+.redes {
+  font-size: large;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 10px;
+}
+
+.color-redes:hover {
+  background-color: #a71e34;
+}
+
+.social-media {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.mapa {
+  text-align: center;
+}
+
+.redes-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-history {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.3rem;
+}
+
+.galery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.unidad-bombero {
+  margin: 10px;
+}
+
+
+@media (max-width: 400px) {
+
+/* SECCION HEADER Y MAIN */
+
+  .title-page {
+    font-size: 20px;
+  }
+
+  .nav-list {
+    font-size: 15px;
+    display: block;
+    align-items: center;
+  }
+
+  .nav-search {
+    height: 20px;
+    width: 100px;
+  }
+
+  .fundacion {
+    color: black;
+    font-size: 22px;
+  }
+
+
+  /* SECCION CONTACTO */
+
+  .titulo-contacto {
+    font-size: 22px;
+  }
+
+  .contenedor-contacto {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .caja {
+    background-color: rgba(209, 211, 212, 0.637);
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .c1 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .c2 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .c3 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .c4 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .c5 {
+    grid-column: 1/2;
+  }
+
+  .btn-enviar {
+    background-color: white;
+    height: 20px;
+    width: 50px;
+  }
+
+  /* SECCION FOOTER */
+
+  .final-pagina {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .n1 {
+    grid-column: 1/2;
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+
+  .n2 {
+    grid-column: 1/2;
+  }
+
+  .n3 {
+    grid-column: 1/2;
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .botones-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+  }
+}
+
