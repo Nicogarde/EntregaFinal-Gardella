@@ -16,13 +16,10 @@ a {
 /* ----------header----------- */
 
 header {
-
   background-color: rgba(201, 3, 3, 0.616);
   padding: 20px;
   font-size: 32px;
   text-align: center;
-
-
 }
 
 .title-page {
@@ -100,8 +97,6 @@ header {
   margin: 0 10px;
   height: 200px;
   width: 200px;
-
-
 }
 
 .reseña-historica {
@@ -119,8 +114,6 @@ header {
 
 .fotos-unidades {
   background-color: rgba(209, 211, 212, 0.637);
-
-
 }
 
 .unidades {
@@ -155,7 +148,6 @@ header {
 }
 
 .descripcion-rifa {
-
   font-style: oblique;
   font-size: 20px;
   font-weight: bold;
@@ -262,10 +254,6 @@ header {
 .btn-enviar:hover {
   background-color: #a71e34;
 }
-
-
-
-
 
 
 /* ----footer----- */
