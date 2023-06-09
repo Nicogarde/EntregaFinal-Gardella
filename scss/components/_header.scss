@@ -1,0 +1,30 @@
+
+
+.nav-search {
+    width: 150px;
+    height: 35px;
+    justify-content: right;
+}
+
+@media (max-width: 400px) {
+
+    .title-page {
+        font-size: 20px;
+    }
+
+    .nav-list {
+        font-size: 15px;
+        display: block;
+        align-items: center;
+    }
+
+    .nav-search {
+        height: 20px;
+        width: 100px;
+    }
+
+    .fundacion {
+        color: black;
+        font-size: 22px;
+    }
+}

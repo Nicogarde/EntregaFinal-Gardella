@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: oblique;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.unidades {
+    width: 250px;
+    height: 200px;
+}
+
+.fotos-unidades {
+    background-color: rgba(209, 211, 212, 0.637);
+}
+
+.rifa {
+    background-color: rgba(209, 211, 212, 0.637);
+}
+
+.boleto-rifa {
+    width: 100%;
+    padding: 20px;
+}
+
+.img-rifa {
+    width: 100%
+}
+
+.contacto {
+    background-color: rgba(209, 211, 212, 0.637);
+}
+
+.unidad-bombero {
+    margin: 10px;
+}

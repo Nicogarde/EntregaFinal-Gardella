@@ -1,0 +1,128 @@
+.titulo-contacto {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.contacto {
+    background-color: rgba(209, 211, 212, 0.637);
+}
+
+.parrafo-contacto {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.contenedor-contacto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.caja {
+    background-color: rgba(209, 211, 212, 0.637);
+    text-align: center;
+    line-height: 100px;
+}
+
+.c1 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.c2 {
+    grid-column: 2/3;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.c3 {
+    grid-column: 3/4;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.c4 {
+    grid-column: 1/4;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.c5 {
+    grid-column: 1/4;
+}
+
+.btn-enviar {
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.btn-enviar:hover {
+    background-color: #a71e34;
+}
+
+@media (max-width: 400px) {
+    .titulo-contacto {
+        font-size: 22px;
+    }
+
+    .contenedor-contacto {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .caja {
+        background-color: rgba(209, 211, 212, 0.637);
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .c1 {
+        grid-column: 1/2;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .c2 {
+        grid-column: 1/2;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .c3 {
+        grid-column: 1/2;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .c4 {
+        grid-column: 1/2;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+    .c5 {
+        grid-column: 1/2;
+    }
+
+    .btn-enviar {
+        background-color: white;
+        height: 20px;
+        width: 50px;
+    }
+}

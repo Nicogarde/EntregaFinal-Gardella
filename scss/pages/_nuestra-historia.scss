@@ -1,0 +1,27 @@
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.elemento {
+    flex: 1 0 auto;
+    margin: 0 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.reseña-historica {
+    background-color: rgba(209, 211, 212, 0.637);
+    font-style: oblique;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.text-history {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
