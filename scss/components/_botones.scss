@@ -1,0 +1,10 @@
+.btn {
+    background-color: $color-blanco;
+
+
+    &-enviar:hover {
+        background-color: #a71e34;
+        height: 50px;
+        width: 100px;
+    }
+}

@@ -1,3 +1,7 @@
+$color-shadow: 2px 2px 4px #000000;
+$color-bg: rgba(209, 211, 212, 0.637);
+$color-blanco: white;
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +17,10 @@ a {
     color: black;
 }
 
+.title-page {
+    color: $color-blanco;
+    text-shadow: $color-shadow;
+}
 
 .nav-list {
     display: flex;
@@ -23,7 +31,7 @@ a {
     font-weight: bold;
     font-size: 25px;
     font-style: oblique;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: $color-shadow;
 }
 
 .unidades {
@@ -32,11 +40,11 @@ a {
 }
 
 .fotos-unidades {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color: $color-bg;
 }
 
 .rifa {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color: $color-bg;
 }
 
 .boleto-rifa {
@@ -49,7 +57,7 @@ a {
 }
 
 .contacto {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color:$color-bg;
 }
 
 .unidad-bombero {

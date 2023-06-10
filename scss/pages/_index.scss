@@ -1,22 +1,14 @@
-header {
-    background-color: rgba(201, 3, 3, 0.616);
-    padding: 20px;
-    font-size: 32px;
-    text-align: center;
-}
 
-.title-page {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
+
+
 
 .sub-titulo {
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: $color-shadow;
     font-size: 1.5rem;
 }
 
 .nav-color:hover {
-    background-color: #f8f4e3;
+    background-color: $color-blanco;
 }
 
 
@@ -31,15 +23,15 @@ header {
 .formacion {
     width: 100%;
     padding-top: 5px;
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color: $color-bg;
 }
 
 
 .fundacion {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color: $color-bg;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: $color-shadow;
 }

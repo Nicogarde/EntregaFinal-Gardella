@@ -5,15 +5,15 @@
 }
 
 .contacto {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color: $color-bg;
 }
 
 .parrafo-contacto {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: oblique;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .contenedor-contacto {
@@ -24,7 +24,7 @@
     margin: 0 auto;
 }
 .caja {
-    background-color: rgba(209, 211, 212, 0.637);
+    background-color:$color-bg;
     text-align: center;
     line-height: 100px;
 }
@@ -61,15 +61,7 @@
     grid-column: 1/4;
 }
 
-.btn-enviar {
-    background-color: white;
-    height: 30px;
-    width: 100px;
-}
 
-.btn-enviar:hover {
-    background-color: #a71e34;
-}
 
 @media (max-width: 400px) {
     .titulo-contacto {
@@ -83,7 +75,7 @@
     }
 
     .caja {
-        background-color: rgba(209, 211, 212, 0.637);
+        background-color: $color-bg;
         text-align: center;
         line-height: 2rem;
     }
@@ -121,7 +113,7 @@
     }
 
     .btn-enviar {
-        background-color: white;
+        background-color: $color-blanco;
         height: 20px;
         width: 50px;
     }

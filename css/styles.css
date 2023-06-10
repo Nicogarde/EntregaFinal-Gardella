@@ -14,6 +14,11 @@ a {
   color: black;
 }
 
+.title-page {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -54,6 +59,13 @@ a {
 
 .unidad-bombero {
   margin: 10px;
+}
+
+header {
+  background-color: rgba(201, 3, 3, 0.616);
+  padding: 20px;
+  font-size: 32px;
+  text-align: center;
 }
 
 .nav-search {
@@ -181,16 +193,13 @@ a {
     font-size: 20px;
   }
 }
-header {
-  background-color: rgba(201, 3, 3, 0.616);
-  padding: 20px;
-  font-size: 32px;
-  text-align: center;
+.btn {
+  background-color: white;
 }
-
-.title-page {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+.btn-enviar:hover {
+  background-color: #a71e34;
+  height: 50px;
+  width: 100px;
 }
 
 .sub-titulo {
@@ -199,7 +208,7 @@ header {
 }
 
 .nav-color:hover {
-  background-color: #f8f4e3;
+  background-color: white;
 }
 
 .portada {
@@ -327,10 +336,10 @@ header {
 
 .parrafo-contacto {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: oblique;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .contenedor-contacto {
@@ -377,16 +386,6 @@ header {
 
 .c5 {
   grid-column: 1/4;
-}
-
-.btn-enviar {
-  background-color: white;
-  height: 30px;
-  width: 100px;
-}
-
-.btn-enviar:hover {
-  background-color: #a71e34;
 }
 
 @media (max-width: 400px) {
