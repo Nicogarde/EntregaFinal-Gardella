@@ -11,10 +11,33 @@ header {
     justify-content: right;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width:768px) {
 
     .title-page {
         font-size: 20px;
+    }
+
+    .nav-list {
+        font-size: 15px;
+        display: block;
+        align-items: center;
+    }
+
+    .nav-search {
+        height: 20px;
+        width: 100px;
+    }
+
+    .fundacion {
+        color: black;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .title-page {
+        font-size: 30px;
     }
 
     .nav-list {
