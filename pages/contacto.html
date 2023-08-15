@@ -24,6 +24,7 @@
                     <li class="nav-color"><a href="galeria.html">Galeria</a></li>
                     <li class="nav-color"><a href="rifas.html">Rifas</a></li>
                     <li class="nav-color"><a href="">Contacto</a></li>
+                    <li class="nav-color"><a href="carrito.html">Carrito</a></li>
                 </ul>
                 <form action="">
                     <input type="search" placeholder="Buscar" class="nav-search">
@@ -49,7 +50,7 @@
         </section>
 
         <section>
-            <form class="contenedor-contacto">
+            <form class="contenedor-contacto" id="form">
                 
                     <div class="caja c1">
                         <label for="#nombre">Nombre y Apellido</label>
@@ -68,7 +69,8 @@
                         <textarea cols="30" rows="10" id="mensaje"></textarea>
                     </div>
                     <div class="caja c5">
-                        <input class="btn-enviar" type="submit" value="Enviar">
+                        <button type="submit" id="boton-enviar">Enviar</button>
+                        <p class="warnings" id="warnings"></p>
                     </div>
                 
             </form>
@@ -98,6 +100,10 @@
                 <i class="bi bi-facebook"></i></a>
         </div>
     </footer>
+
+<script src="../javascript/contacto.js"></script>
+
 </body>
+
 
 </html>

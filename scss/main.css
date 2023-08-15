@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -44,41 +45,17 @@ a {
   background-color: rgba(209, 211, 212, 0.637);
 }
 
-.titulo-rifa{
-  font-size: 40px;
-  font-style: oblique;
-  text-decoration: underline;
+.boleto-rifa {
+  width: 100%;
   padding: 20px;
-  font-weight: bold;
 }
 
-.rifas{
-  font-size: 40px;
-  padding: 20px;
-  font-style: oblique;
-}
-
-.boton-rifas{
-height: 40px;
-width: 150px;
-font-size: 20px;
-font-weight: bold;
-background-color: lightgrey;
-}
-
-.boton-rifas:hover{
-  background-color: lightcoral;
+.img-rifa {
+  width: 100%;
 }
 
 .contacto {
   background-color: rgba(209, 211, 212, 0.637);
-}
-
-.warnings{
-  width: 300px;
-  text-align: center;
-  margin: auto;
-  margin-top: 10px;
 }
 
 .unidad-bombero {
@@ -98,26 +75,22 @@ header {
   justify-content: right;
 }
 
-.compras{
-  background-color:  rgba(209, 211, 212, 0.637);
-  font-size: 40px;
-  font-style: oblique;
-  font-weight: bold;
-}
-
 @media (min-width: 400px) and (max-width: 768px) {
   .title-page {
     font-size: 20px;
   }
+
   .nav-list {
     font-size: 15px;
     display: block;
     align-items: center;
   }
+
   .nav-search {
     height: 20px;
     width: 100px;
   }
+
   .fundacion {
     color: black;
     font-size: 22px;
@@ -128,15 +101,18 @@ header {
   .title-page {
     font-size: 30px;
   }
+
   .nav-list {
     font-size: 15px;
     display: block;
     align-items: center;
   }
+
   .nav-search {
     height: 20px;
     width: 100px;
   }
+
   .fundacion {
     color: black;
     font-size: 22px;
@@ -211,20 +187,24 @@ header {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
   }
+
   .footer {
     background-color: black;
     text-align: center;
     padding-top: 10px;
   }
+
   .n1 {
     grid-column: 1/2;
     color: white;
     text-decoration: underline;
     font-size: 1rem;
   }
+
   .n2 {
     grid-column: 1/2;
   }
+
   .n3 {
     grid-column: 1/2;
     color: white;
@@ -232,6 +212,7 @@ header {
     font-size: 1rem;
   }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .final-pagina {
     background-color: black;
@@ -239,20 +220,24 @@ header {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
   }
+
   .footer {
     background-color: black;
     text-align: center;
     padding-top: 10px;
   }
+
   .n1 {
     grid-column: 1/2;
     color: white;
     text-decoration: underline;
     font-size: 1rem;
   }
+
   .n2 {
     grid-column: 1/2;
   }
+
   .n3 {
     grid-column: 1/2;
     color: white;
@@ -260,6 +245,7 @@ header {
     font-size: 1rem;
   }
 }
+
 @media (min-width: 1024px) {
   .botones-contacto {
     display: flex;
@@ -272,9 +258,11 @@ header {
     font-size: 20px;
   }
 }
+
 .btn {
   background-color: white;
 }
+
 .btn-enviar:hover {
   background-color: #a71e34;
   height: 50px;
@@ -358,12 +346,8 @@ header {
   padding-bottom: 50px;
 }
 
-.descripcion-rifa {
-  font-style: oblique;
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
-  padding: 35px;
+.contenedor-rifa {
+  font-size: 50px;
 }
 
 .formulario-rifa {
@@ -403,6 +387,7 @@ header {
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
   }
+
   .formulario-rifa {
     display: inline-block;
     text-align: center;
@@ -412,6 +397,7 @@ header {
     font-size: 15px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .descripcion-rifa {
     font-style: oblique;
@@ -419,46 +405,54 @@ header {
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
   }
+
   .contenedor-rifa {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
   }
+
   .caja {
     background-color: rgba(209, 211, 212, 0.637);
     text-align: center;
     line-height: 2rem;
     padding: 5px;
   }
+
   .r1 {
     grid-column: 1/2;
     font-style: oblique;
     font-weight: bold;
     font-size: 1rem;
   }
+
   .r2 {
     grid-column: 2/3;
     font-style: oblique;
     font-weight: bold;
     font-size: 1rem;
   }
+
   .r3 {
     grid-column: 1/3;
     font-style: oblique;
     font-weight: bold;
     font-size: 1rem;
   }
+
   .r4 {
     grid-column: 1/3;
     font-style: oblique;
     font-weight: bold;
     font-size: 1rem;
   }
+
   .btn-enviar {
     height: 20px;
     width: 50px;
   }
 }
+
 .titulo-contacto {
   text-align: center;
   font-size: 2rem;
@@ -527,91 +521,51 @@ header {
   .titulo-contacto {
     font-size: 22px;
   }
+
   .contenedor-contacto {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
   }
+
   .caja {
     background-color: rgba(209, 211, 212, 0.637);
     text-align: center;
     line-height: 2rem;
   }
+
   .c1 {
     grid-column: 1/2;
     font-style: oblique;
     font-weight: bold;
     font-size: 0.7rem;
   }
+
   .c2 {
     grid-column: 1/2;
     font-style: oblique;
     font-weight: bold;
     font-size: 0.7rem;
   }
+
   .c3 {
     grid-column: 1/2;
     font-style: oblique;
     font-weight: bold;
     font-size: 0.7rem;
   }
+
   .c4 {
     grid-column: 1/2;
     font-style: oblique;
     font-weight: bold;
     font-size: 0.7rem;
   }
+
   .c5 {
     grid-column: 1/2;
   }
-  .btn-enviar {
-    background-color: white;
-    height: 20px;
-    width: 50px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .titulo-contacto {
-    font-size: 22px;
-  }
-  .contenedor-contacto {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-  }
-  .caja {
-    background-color: rgba(209, 211, 212, 0.637);
-    text-align: center;
-    line-height: 2rem;
-    padding: 5px;
-  }
-  .c1 {
-    grid-column: 1/2;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .c2 {
-    grid-column: 2/3;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .c3 {
-    grid-column: 1/3;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .c4 {
-    grid-column: 1/3;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .c5 {
-    grid-column: 1/3;
-  }
+
   .btn-enviar {
     background-color: white;
     height: 20px;
@@ -619,4 +573,61 @@ header {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titulo-contacto {
+    font-size: 22px;
+  }
+
+  .contenedor-contacto {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .caja {
+    background-color: rgba(209, 211, 212, 0.637);
+    text-align: center;
+    line-height: 2rem;
+    padding: 5px;
+  }
+
+  .c1 {
+    grid-column: 1/2;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .c2 {
+    grid-column: 2/3;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .c3 {
+    grid-column: 1/3;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .c4 {
+    grid-column: 1/3;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .c5 {
+    grid-column: 1/3;
+  }
+
+  .btn-enviar {
+    background-color: white;
+    height: 20px;
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
