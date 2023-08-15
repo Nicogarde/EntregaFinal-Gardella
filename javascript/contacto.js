@@ -34,7 +34,7 @@ botonEnviar.addEventListener("click", e => {
     }
 
     let usuario = [namex.value, email.value];
-    localStorage.setItem("usuario", usuario);
+    localStorage.setItem("usuario" , usuario);
 
 })
 
