@@ -90,6 +90,10 @@ header {
   padding: 20px;
   font-size: 32px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 40px 0;
 }
 
 .nav-search {
@@ -104,6 +108,220 @@ header {
   font-style: oblique;
   font-weight: bold;
 }
+
+/*----------- CARRITO -----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width:1200px ;
+    font-family: 'lato' ;
+    color: black;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: black;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 40px 0;
+}
+
+.icono-carrito{
+    position: relative;
+}
+
+.contenedor-carrito{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cantidad-productos{
+    font-size: 20px;
+}
+
+.titulo-producto-carrito{
+font-size: 20px;
+text-decoration: underline;
+}
+
+.precio-producto-carrito{
+font-weight: 700;
+font-size: 20px;
+margin-left: 10px;
+}
+
+
+.contenedor-carrito-ocultos{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1;
+
+    background-color: #fff;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+
+}
+
+.productos-carrito{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    align-items: center;
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info-productos-carrito{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.cruz-carrito{
+    width: 25px;
+    height: 25px;
+}
+
+.cruz-carrito:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.total-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.total-pagar h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+font-size: 20px;
+font-weight: 900;
+}
+
+.hiden-cart{
+    display: none;
+}
+
+.cart-vacio{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.container-items{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.items{
+    border-radius: 10px;
+}
+
+.items:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.info-rifa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-rifa{
+    padding: 15px 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.desc-rifa{
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bold ;
+
+}
+
+.precio-rifa{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.img-rifas{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.img-rifas:hover{
+    transform: scale(1.2);
+}
+
+.items figure{
+    overflow: hidden;
+}
+
+.btn-comprar{
+    height: 50px;
+    width: 100px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover{
+    background-color: lightcoral;
+}
+
+
+
+
+
 
 @media (min-width: 400px) and (max-width: 768px) {
   .title-page {
