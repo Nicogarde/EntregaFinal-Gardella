@@ -46,18 +46,17 @@ productsList.addEventListener('click', e => {
         }
 
         
-
         showHTML();
     }
 
 });
 
-rowProductos.addEventListener('click', e =>{
+rowProductos.addEventListener('click', (e) =>{
     if(e.target.classList.contains('cruz-carrito')){
         const product = e.target.parentElement
         const title = product.querySelector('p').textContent
 
-        allProducts = allProducts.filter( product => product.title !== title
+        allProducts = allProducts.filter( Productos => Productos.title !== title
             );
 
         showHTML()
@@ -66,12 +65,6 @@ rowProductos.addEventListener('click', e =>{
 
 const showHTML = () => {
 
-    if(!allProducts.length){
-        containercartProduct.innerHTML=`
-        <p class="cart-vacio">El carrito está vacio</p>
-        `
-
-    }
 
     rowProductos.innerHTML = '';
 
@@ -104,4 +97,5 @@ const showHTML = () => {
 
     valorTotal.innerText = `$${total}`
     countProduct.innerText = totalOfProducts;
+
 }
