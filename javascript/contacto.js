@@ -1,12 +1,12 @@
-let namex = document.getElementById("nombre");
-let email = document.getElementById("email");
-let asunto = document.getElementById("asunto");
-let mensaje = document.getElementById("mensaje");
-let form = document.getElementById("warnings");
-let botonEnviar = document.getElementById("boton-enviar")
+let namex = document.getElementById("#nombre");
+let email = document.getElementById("#email");
+let asunto = document.getElementById("#asunto");
+let mensaje = document.getElementById("#mensaje");
+let form = document.getElementById("#warnings");
+let botonEnviar = document.getElementById("#boton-enviar")
 
 
-botonEnviar.addEventListener("click", e => {
+botonEnviar.addEventListener("click", (e) => {
     e.preventDefault();
     let warnings = "";
     let entrar = false;
@@ -28,9 +28,9 @@ botonEnviar.addEventListener("click", e => {
         entrar = true;
     }
     if (entrar) {
-        parrafo.innerHTML = warnings
+        form.innerHTML = warnings
     } else {
-        parrafo.innerHTML = "Enviado"
+        form.innerHTML = "Enviado"
     }
 
     let usuario = [namex.value, email.value];
